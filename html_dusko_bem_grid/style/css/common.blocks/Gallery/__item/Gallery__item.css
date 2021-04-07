@@ -1,0 +1,9 @@
+.Gallery__item {list-style-type: none; flex: 1 0 33%; }
+
+@media(max-width: 900px){
+    .Gallery__item {flex: 1 0 50%; }
+}
+
+@media(max-width: 600px){
+    .Gallery__item {flex: 1 0 100%; }
+}

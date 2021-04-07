@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<!-- Head -->
+<head>
+
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dusko BEM Grid</title>
+
+    <!-- (old) Style sheet -->
+    <!-- <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/duske_bem_grid.css"> -->
+
+
+    <!-- Variables -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Variables/dusko_bem_grid_variables.css">
+
+    <!-- Mix -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/heading/heading.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/general-text/general-text.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/font-color_black/font-color_black.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/font-color_white/font-color_white.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/font-theme_uppercase/font-theme_uppercase.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/shadow-size_small/shadow-size_small.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/Mix/shadow-size_big/shadow-size_big.css">
+
+    <!-- Body -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Body/Body.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Body/_theme_grey/Body_theme_grey.css">
+
+    <!-- Wrapper -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Wrapper/Wrapper.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Wrapper/_theme_white/Wrapper_theme_white.css">
+
+    <!-- Header -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/Header.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/_flex/Header_flex.css">
+
+    <!-- Button -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/__button/Header__button.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/__button/_theme_black/Header__button_theme_black.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/__link/Header__link.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Header/__link/_size_small/Header__link_size_small.css">
+
+    <!-- Navigation -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Nav/Nav.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Nav/__list/Nav__list.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Nav/__item/Nav__item.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Nav/__link/Nav__link.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Nav/__link/_size_small/Nav__link_size_small.css">
+
+    <!-- Grid container -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Grid-container/Grid-container.css">
+
+    <!-- Aside -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Aside/Aside.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Aside/__heading/Aside__heading.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Aside/__heading/_size_large/Aside__heading_size_large.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Aside/__img/Aside__img.css">
+
+    <!-- Selection -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Selection/Selection.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Selection/__heading/Selection__heading.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Selection/__heading/_size_medium/Selection__heading_size_medium.css">
+
+    <!-- Gallery -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Gallery/Gallery.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Gallery/__list/Gallery__list.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Gallery/__item/Gallery__item.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Gallery/__img/Gallery__img.css">
+
+    <!-- Item order -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Gallery/__img/_item-order/Gallery__item-order.css">
+
+    <!-- Main -->
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/Main.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/_theme_grey/Main_theme_grey.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/__heading/Main__heading.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/__heading/_size_medium/Main__heading_size_medium.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/__text/Heading__text.css">
+    <link rel="stylesheet" href="/html_dusko_bem_grid/style/css/common.blocks/Main/__text/_size_small/Main__text_size_small.css"> 
+</head>
+
+
+<!-- Body -->
+<body class="Body Body_theme_grey">
+
+    <!-- Wrapper -->
+    <div class="Wrapper Wrapper_theme_white"> 
+
+        <!-- Header -->
+        <header class="Header Header_flex">
+
+            <!-- Navigation -->
+            <nav class="Nav">
+                <ul class="Nav__list">
+                    <li class="Nav__item">
+                        <a href="#" class="heading font-color_black font-theme_uppercase Nav__link Nav__link_size_small">Home</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="heading font-color_black font-theme_uppercase Nav__link Nav__link_size_small">Shop</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="heading font-color_black font-theme_uppercase Nav__link Nav__link_size_small">About</a>
+                    </li>
+                    <li class="Nav__item">
+                        <a href="#" class="heading font-color_black font-theme_uppercase Nav__link Nav__link_size_small">Journal</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Button -->
+            <button class="Header__button Header__button_theme_black">
+                <a href="#" class="font-color_white heading font-theme_uppercase Header__link Header__link_size_small">Explore shop</a>
+            </button>
+        </header>
+
+
+        <!-- Aside image -->
+        <aside class="Aside">
+            <figure class="shadow-size_big Aside__img">
+                <h1 class="font-color_white heading Aside__heading Aside__heading_size_large">Dusko</h1>
+            </figure>
+        </aside>
+
+        <!-- Selection -->
+        <section class="font-color_black Selection">
+            <h2 class="heading Selection__heading Selection__heading_size_medium">Selection</h2>
+
+            <!-- Gallery -->
+            <figure class="Gallery">
+                <ul class="Gallery__list">
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_1"></figure>
+                    </li>
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_2"></figure>
+                    </li>
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_3"></figure>
+                    </li>
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_4"></figure>
+                    </li>
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_5"></figure>
+                    </li>
+                    <li class="Gallery__item">
+                        <figure class="shadow-size_small Gallery__img Gallery__img_item-order_6"></figure>
+                    </li>
+                </ul>
+            </figure>
+        </section>
+            <!-- </div> --->
+
+            <!-- Main -->
+        <main class="Main Main_theme_grey">
+            <article class="Main__article">
+                <h2 class="font-color_white heading font-color_white Main__heading Main__heading_size_medium">Behind <br>the brands</h2>
+                <p class="font-color_white general-text Main__text Main__text_size_small">
+                    It all started with the drive to create something bigger & better than what was already out there. Houres of drawing, thinking, re-thinking, iterating, and finally creating all to result in lifestyle brand with some serious bite. DUSKO isn´t hust polite t´shirts and socks, it´s a collection of everyday details that give you that kick of inspiration, the drive to keep going get s*** done.
+                </p>
+            </article>
+        </main>
+    </div>
+</body>
+</html>

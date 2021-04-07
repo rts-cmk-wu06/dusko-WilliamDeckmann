@@ -1,0 +1,10 @@
+.Wrapper {max-width: 1200px; min-width: 600px; margin: auto; padding: 40px 20px 20px 20px; font-size: 10px;}
+.Wrapper {
+    display: grid; 
+    grid-template-columns: 55% 45%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "header header"
+    "aside main"
+    "selection main";
+}
